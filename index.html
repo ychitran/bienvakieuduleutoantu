@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let physic = parseInt(prompt ("Nhập điểm môn vật lý của bạn"));
+        let chemistry = parseInt(prompt ("Nhập điểm môn hoá học của bạn"));
+        let biology =parseInt(prompt ("Nhập điểm môn sinh học của bạn"));
+        let average = (physic + chemistry + biology)/3;
+        document.write ("Điểm trung bình của bạn là " + average);
+        document.write ("<br/>");
+        let celius = prompt ("Nhập nhiệt độ để chuyển ra độ F")
+        let fahrenheit = (celius*1.8+32);
+        document.write ("Nhiệt độ chuyển sang độ F là: " +fahrenheit);
+        document.write ("<br/>");
+        let d = prompt ("Nhập đường kính hình tròn");
+        let r = prompt ("Nhập bán kính hình tròn");
+        let c = (2*r) * 3.14;
+        let s = (d*d)/4 *3.14;
+        document.write ("Chu vi hình tròn là: " + c);
+        document.write ("Diện tích hình tròn là: " + s);
+    </script>
+    
+</body>
+</html>
